@@ -1,0 +1,44 @@
+body{
+    height: 1000px;
+}
+#parent{
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+    position: relative;
+}
+
+#one{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    /* z index apply for :display: 
+    1.positon must be(fixed, absolute, relative) 
+    2.piority:(3>2>1)
+    */
+    z-index: 3; 
+}
+#two{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top:50px;
+    left: -50px;
+    z-index: 2;
+    
+}
+#three{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    top:100px;
+    left: -100px;
+    z-index: 1;
+
+}

@@ -1,0 +1,26 @@
+/* syntax---> selector::Pseudo-element{
+
+ } */
+
+ p::first-letter{
+    font-size: 40px;
+    color: red;
+ }
+
+ p::first-line{
+    font-size: 35px;
+    color: red;
+ }
+
+ h1::before{
+    content: url(arrow.png);
+ }
+
+ h1::after{
+    content: " added after";
+ }
+
+ ::selection{
+    color: red;
+    background: green;
+ }

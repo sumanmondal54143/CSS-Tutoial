@@ -1,0 +1,35 @@
+/* 
+block(div, h1-h6, p, from):
+1. start new line
+2. take full width
+3. set height and width together
+
+inline(a, img, span):
+1.not start new line 
+2. not take full width
+3. not apply height and width
+
+inline-block:
+1.not start new line 
+2. not take full width
+3. set height and width together
+none
+*/
+
+.display{
+    border: 1px solid red;
+    height: 100px;
+    width: 50%;
+    display: block;
+    display: inline;
+    display: inline-block;
+}
+
+#div1{
+    /*space not occupy of div1*/
+    /* display: none;  */
+
+    /*space occupy of div1*/
+    visibility: hidden;
+    height: 500px;
+}

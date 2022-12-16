@@ -1,0 +1,23 @@
+/* li:first-child{
+    color:red;
+}
+li:last-child{
+    color:green;
+} */
+
+/* li:nth-child(4){
+    color: red;
+}
+li:nth-child(odd){
+    color: blueviolet;
+} */
+/* li:nth-child(3n + 0){
+    color: red;
+} */
+li:nth-last-child(3){
+    color: red;
+}
+
+input:focus{
+    border: 3px solid red;
+}
