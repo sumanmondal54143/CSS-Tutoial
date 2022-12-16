@@ -1,0 +1,30 @@
+@font-face{
+    font-family: suman;
+    src: url('fontstyle/GreatVibes-Regular.ttf')
+}
+
+h1{
+    font-family: suman;
+    /* First condution */
+    /* font-family: 'La Belle Aurore', cursive; */
+    /* font-family: 'Kenia', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-weight: 100; */
+}
+
+p{
+
+    /* First condution */
+    /* font-family: 'La Belle Aurore', cursive; */
+    /* font-family: 'Kenia', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+
+    /* Second condution (use one and more fonts in fonts familly*/
+    font-family: suman, 'La Belle Aurore', cursive;
+
+
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+}

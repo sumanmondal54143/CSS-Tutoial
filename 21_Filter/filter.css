@@ -1,0 +1,12 @@
+img{
+    height: 400px;
+    filter: blur(7px);
+    filter:brightness(150%);
+    filter:contrast(155%);
+    filter:drop-shadow(8px 8px 8px green); /*SHADOW*/
+    filter:grayscale(100%); /*BLACK AND WHITE */
+    filter:hue-rotate(90deg); /* COLOR EFFECT */
+    filter:invert(100%);
+    filter:opacity(80%);  /*TRANSPARENT*/
+    filter: saturate(300%);
+}

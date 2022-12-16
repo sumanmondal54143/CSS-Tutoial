@@ -1,0 +1,11 @@
+#div1{
+    border: 1px solid red;
+    /* padding-top: 50px;
+    padding-left: 17%;
+    padding-bottom: 15%;
+    padding-right: 25%; */
+
+    padding: 25px 50px 30px 70px; /*clock wise roteation */
+    padding: 20px 70px; /* first- (top buttom), second-(left right) */
+    padding: 25px; /*for all side*/
+}

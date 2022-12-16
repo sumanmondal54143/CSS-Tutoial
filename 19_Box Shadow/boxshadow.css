@@ -1,0 +1,16 @@
+div{
+    border: 1px solid green;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 10px;
+    /* syntax outside shadow: box-shadow:(x-axis y-axis blur-radius spreed-radious shadw-color) */
+    /* box-shadow: 10px 10px 15px 3px gray; */
+
+    /* syntax inside shadow: box-shadow:(x-axis y-axis blur-radius spreed-radious shadw-color inset) */
+    /* box-shadow: 10px 10px 15px 3px gray inset; */
+
+    /*syntax multiple shadow: box-shadow:(x-axis y-axis blur-radius spreed-radious shadw-color, -x-axis y-axis blur-radius spreed-radious shadw-color) */
+    box-shadow: 10px 10px 15px 3px gray, -10px 10px 15px 3px red, 10px -10px 15px 3px pink;
+    
+}

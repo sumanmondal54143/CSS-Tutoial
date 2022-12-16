@@ -1,0 +1,40 @@
+.div1{
+    border: 2px solid red;
+    padding: 25px;
+}
+body{
+    border: 5px dotted black;
+}
+#marg{
+    /* margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 10%; */
+
+    
+    /* clock wise roteation */
+    /* margin: 25px 50px 30px 70px;  */
+
+    /* first- (top buttom), second-(left right) */
+    /* margin: 20px 70px;  */
+
+    /*for all side*/
+    /* margin: 25px; */
+    
+    /* - sine use only margin not padding */
+    /* margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 10%;
+     */
+
+    width: 200px;
+    margin:20px auto;  
+}
+/*margin colaps only top-bottum not left-right*/
+#marg1{
+    margin-top: 50px;
+}
+#colsp{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,9 @@
+div{
+    border: 2px solid red;
+    /* change style of cursor*/
+    cursor: col-resize;
+    cursor: pointer;
+    cursor: grab;
+    cursor: wait;
+    cursor: help;
+}

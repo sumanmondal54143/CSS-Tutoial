@@ -1,0 +1,32 @@
+html{
+    font-size: 14px;
+}
+#parent{
+    border: 1px solid red;
+    /* width: 10cm; */
+    /* width: 100mm; */
+    /* width: 800px; */
+    /* width: 50vw;
+    height: 50vh; */
+
+    /* font-size: 30px; */
+
+
+    /*  rem = rem font size * html font size so html font size 14px and parent rem size 4rem so total font size = 14*4px */
+    /* font-size:4rem; */
+
+    /* responsive fonts */
+    /* font-size: 4vw; */
+    /* font-size: 4vh; */
+
+}
+
+#child{
+    border: 1px solid blue;
+
+    /* 1 em of 10px(parent div) = 1*10px so 0.5em of 30px means = 0.5*30px */
+    /* font-size: 3em; */
+
+    /*  rem = rem font size * html font size so html font size 14px and child rem size 4rem so total font size = 14*4px */
+    /* font-size: 2rem; */
+}

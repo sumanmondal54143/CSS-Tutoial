@@ -1,0 +1,17 @@
+a{
+    /*remove underline*/
+    text-decoration: none;
+}
+/* link four state(:link, :visited,:hover,:active)*/
+a:link{
+    color: yellowgreen;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
+}
