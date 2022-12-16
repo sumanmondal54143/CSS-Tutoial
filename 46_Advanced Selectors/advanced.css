@@ -1,0 +1,87 @@
+/* selector type:
+    1.Type selector(h1-h6,p,img,video,div etc)
+
+    2.ID selector(#redp,#bluep etc)
+
+    3.Class selector(.redp,.blue etc)
+
+    4.Pseudo Class(a:hover, a:active etc) and Pseudo Element(a::first- 
+      line, a::first-line etc)
+
+    5.Attribute selector(a[href="https://example.com"] etc)
+
+    6.Universal slector(*{})
+
+    7.Combinator selector:
+        1.Descendant combinatory(child at any stage)
+            .red-p span{
+                color:green;
+            }
+        2.Child combinatory(Direct child)
+            .red-p > span{
+                color:green;
+            }
+        3.Adjacent combinatory(right after sibling)
+            .red-p + h1{
+                color:green;
+            }    
+        4.General sibling combinatory(all sibling)
+            .red-p ~ h1{
+                color:green;
+            }
+
+    8.Add selector:
+        General sibling combinatory(right after sibling)
+            .red-p, h1{
+                color:green;
+            } */
+
+
+/* li{
+    color: red;
+}
+
+#list2{
+    color:green
+}
+
+.list5{
+    color: purple;
+}
+
+a:hover{
+    color: yellow;
+}
+
+p::first-line{
+    color:red;
+}
+
+a[href="https://www.google.com"]{
+    color:red
+}
+
+*{
+    border: 1px solid red;
+} */
+
+
+/* 
+div a{
+    color: red;
+}
+ div>a{
+    color: red;
+}
+
+div+a{
+    color: red;
+}
+
+div ~ a{
+    color: red;
+}
+
+h1,p{
+    color: red;
+} */

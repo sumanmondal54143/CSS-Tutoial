@@ -1,0 +1,42 @@
+/* General rule:
+   ⚫!important will override every thing
+   ⚫Inline can override everthing expect !important
+   ⚫External will work according to specificity
+
+Specificity Rule:
+   ⚫(#) Id selector has highest value
+   ⚫(*) Universal selector has lowest value
+
+ Specificity Rule Trick (Point System):
+    ⚫ 10,000 point to !important
+    ⚫ 1000 to inline
+    ⚫ 100 to id
+    ⚫ 10 to class, attribute or pseudo-class
+    ⚫ 1 for element selector & pseudo-elements
+    ⚫ O to universal selector
+
+    example:
+                    -->1point 
+                    p{
+
+                    Color: green;
+                    }
+
+                    -->10point 
+                    .red-pl{
+                    
+                    Color: red;
+                    
+                    }
+                    
+                    -->11(1+10)point
+                    div .red-pl{
+                    
+                    Color: blue;
+                    }
+                    ⚫-->11(1+10)point
+                    div .red-pl{
+                    
+                    Color: yellow;
+                    }
+NOTE : if same rule written two or more times in external sheet then last rule will be applicable     */
